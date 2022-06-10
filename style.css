@@ -28,14 +28,17 @@ ul{
 display: flex;
     
 }
-a{
+.h{
     text-decoration: none;
     font-size: 30px;
     margin:30px;
     color: white;
 }
-a:hover{
+.h:hover{
     color: blue;
+    background-color: aqua;
+    padding:2px;
+    border-radius: 5px; 
 }
 .awesome{
     display: flex;
@@ -71,11 +74,11 @@ font-size: 70px;
 .bt1{
     position: relative;
     bottom:50px;
-    background-color: rgb(170, 214, 243);
-    border-radius: 15px;
+    background-color: rgb(60, 139, 192);
     font-size: 40px;
-    padding: 5px 5px;
-    margin: 4px 2px;
+    border: 5px solid rgb(227, 231, 235);
+    padding:10px;
+    border-radius: 20px;
     cursor: pointer;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', 
     Arial, sans-serif;
@@ -107,7 +110,7 @@ font-size: 70px;
 }
 .word{
     width: 100%;
-    height: 30vh;
+    height: 50vh;
     position: absolute;
     top:  90rem;
     background-color: rgb(217, 217, 219);
@@ -119,11 +122,72 @@ q{
     margin: 20px;
     position: relative;
     left: 15%;
+    top: 60px;
 
 }
 .thor{
     position: absolute;
     left: 60rem;
+    top: 50%;
     font-size: 35px;
     font-weight: 700;
+}
+.contact{
+    position: absolute;
+    left: 12%;
+    top: 120rem;
+    background-color: aqua;
+    width: 70%;
+    height: 30vh;
+
+border-radius: 30px;
+}
+.txt6{
+position: relative;
+left: 90px;
+top: 20%;
+font-size: 30px;
+}
+#txt8{
+    position: absolute;
+    top: 40%;
+
+}
+.bt2{
+    position: absolute;
+    left: 80%;
+    top: 80px;
+    border: 5px solid rgb(227, 231, 235);
+    padding:10px;
+    border-radius: 20px;
+    /* border-color: rgb(238, 247, 246); */
+    width: 160px;
+    height: 50px;
+    font-size: 30px;;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+}
+#up ,
+#down{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+ .bt2:hover{
+    background-color: blue;
+}
+.bt1:hover{
+    background-color: black;
+}
+.foot{
+    position: absolute;
+    top:138rem;
+    background-color: rgb(42, 42, 56);
+    width: 100vw;
+    height: 20vh;
+}
+.txt10{
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
